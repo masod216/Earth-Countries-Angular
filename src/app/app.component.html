@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>World Countries</h1>
+</div>
+<div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+    <ul class="nav nav-tabs">
+      <li role="presentation"><a [routerLink]="['map']">Map</a></li>
+      <li role="presentation"><a [routerLink]="['table']">Table</a></li>
+
+    </ul>
+</div>
+
+<div>
+    <router-outlet></router-outlet>
+  <!-- <app-table></app-table> -->
+  <!-- <app-map></app-map> -->
+  <app-footer></app-footer>
+</div>
